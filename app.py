@@ -237,7 +237,7 @@ df_dia = df[df["dia"] == dia_seleccionado]
 # ==============================
 locations = df_dia["direccion"].tolist()
 
-MAX_CLIENTES = 5
+MAX_CLIENTES = 10
 locations = locations[:MAX_CLIENTES]
 
 warehouse = "51 Nelson Rd, Yennora NSW 2161, Australia"
